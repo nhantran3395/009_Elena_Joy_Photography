@@ -1,0 +1,110 @@
+/*Global style*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+/* INTRO SECTION */
+.intro {
+  display: flex;
+  height: 100vh;
+}
+
+.intro-content-wrapper {
+  flex: 1 1;
+}
+
+.intro-image {
+  flex: 1 1;
+  background: url("/img/elena-joy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1), 0 2rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.intro-logo {
+  flex: 1 1;
+  text-align: center;
+}
+
+.intro-nav {
+  flex: 2 1;
+}
+
+.intro-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.intro-body h1 {
+  padding: 2rem;
+}
+
+.intro-body p {
+  padding: 3rem;
+}
+
+.intro-view-gallery {
+  text-decoration: underline;
+}
